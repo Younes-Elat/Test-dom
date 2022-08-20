@@ -345,7 +345,7 @@
                         <button type="" class="button_text">Watch now</button>
                     </div>
                     <div class="p_el picture to_right col-sm-12 col-md-7">
-                        <img src="{{ URL('storage/1.jpg') }}" alt="">
+                        <img src="{{ URL::secure_asset('storage/1.jpg') }}" alt="">
                     </div>
                 </div>
                 <div class="row parts part_1 clearfix">
