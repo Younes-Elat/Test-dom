@@ -19,6 +19,7 @@
     {{-- <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}"> --}}
     @vite(['resources/js/app.js'])
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="{{ secure_asset('css/AdminLTE.min.css') }}">
 
     {{-- @vite(['resources/css/main.css']) --}}
 </head>
